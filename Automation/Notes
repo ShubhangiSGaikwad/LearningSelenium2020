@@ -1,0 +1,144 @@
+https://www.youtube.com/watch?v=7WhnYwoBY24
+Smartprogramming by Deepak : OOPS
+
+
+28-Jan-2020
+
+There 51 reserved keywords,we cannot use these keywords as class name.	
+
+*************************************************************************************
+for loops used 90% in selenium
+while loops used 10% in selenium
+single dimension and two dimensioanl array.
+
+*************************************************************************************
+Loops :  
+
+When to use For Loops : Start and End Point is available.
+Mostly used in read data or csv files.
+	a)When we have to test login/password on a webpage
+	b)read data from csv file
+	c)reading the product catalog list in cart. 
+************************************************************************************* 
+When to use While Loops :
+While loop will run till the condition appears.(ex 1 no of attempts you play till the level is achieved.)
+Ex 2 Game :  No of attempt is unknown to win the Level , after win you will go to the next level.
+
+
+Println : taken to the next line.
+print : cursor stays there 
+
+29-Jan-20
+1.Array : Storage of mulitple variable
+
+2.Advanced For Loop or For Each : 
+
+***********************************************************************
+package loops;
+
+public class Arrays {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String[] str = new String[3];
+		str[0] = "Shubhangi";
+		str[1] = "Shubhangi Gaikwad";
+		str[2] = "S Gaikwad";
+
+		System.out.println(str[0]);
+
+		/*
+		 * for (int i=0 ; i<=2 ; i ++) { System.out.println(str[i]); }
+		 */
+
+		// Advanced For Loop
+
+		for (String j : str) {
+			System.out.println(j);
+		}
+
+	}
+
+}
+/********************************************************/
+
+3. Different ways of initializing Array.( refer Arrays.java)
+4. Type of Arrays : Single Dimension and Multi Dimension
+   In Selenium we use Single Dimension Array and Two Dimensional array. 
+   a)Printing the array
+   b)Dynamic Array using length. 
+   
+   
+   Question how to use enchanced for loop in 2D array.
+   Ans : We cannot use  enchanced for loop for 2D array.
+   
+   /********************************************************/
+   30-Jan-2020
+   
+   static type and non-static type of function.
+   
+   
+   1.Multiple Function with same name but different parameter is known as  Method Overloading.(Static Polymorphism)
+   2. Overloading is possible  by changing the no of parameters,changing the type of parameters.
+   
+    
+    
+    31-Jan-2020
+    For non-static function is called by creating an object of the class.
+    For static function is called by static variables / class name
+    
+    variables  within the method is local variables.
+    variables  within the class and  outside the method is global variables.
+    
+    
+    Look for Static and  Non-static memory allocation.
+    
+    //In parallel execution always use non static variables.
+    example : Launch Browser function.
+    
+    Properties for Static variable : url , username(if system allows same user on multiple browser,example db login) and snapshot location
+    
+    ************************************************************************************************
+    Constructor is used to initialize the object.By default each class has a default constructor.
+    Untill we create a new constructor.
+    
+    https://www.youtube.com/watch?v=lrIlVcsZrx0 (constructor)
+    https://www.youtube.com/watch?v=HJClDc5_H14 (getter and setter)
+    https://www.youtube.com/watch?v=Ah8JaZoWTxI
+    
+    
+    "this" : will point to global variables.
+    
+    when we have local and instance variable with same name then we need to use "this"variable
+    Two or more important constructor with different parameter == >constructor overloading.
+    
+    //03-FEb-2020
+  1. Type  of Modifier :
+  
+  
+  //04-Feb-2020
+  
+  
+  1.Multiple Inheritance is not possible in class, but it is possible in interface.
+  2.One class can maximum extend only one class ,reason it will have  ambiquity which to refer so java does not support mulitple class inhertieance.
+  3. Overloading and Overriding :
+  same name methods in child and parent it is case of overriding method.with same number of parameters.
+	//same name methods in child and parent it is case of overloading method.with different number of parameters.
+4.//in DynamicPolymorphism : while creating a object : obj of child class and reference of parent class
+  //calling of overridden functions is resolved at run  time rather then compile time.
+  
+5.Data member  and method together is called as encapsulation.
+ commands of mvn 
+  //mvn archetype:generate
+  //mvn eclipse:eclipsemvn eclipse:eclipse
+  // mvn clean
+  //mvn  compile
+  //mvn test
+ // In Maven :1.test scripts in test
+              2.reusable scripts or url /xpath in main 
+              
+
+
+
+
+  

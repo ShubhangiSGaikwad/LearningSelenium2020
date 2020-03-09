@@ -1,0 +1,179 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>20/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Mar 04 09:03:45 IST 2020</td>
+</tr>
+<tr><td>Total time:</td><td>0 seconds (224 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='automobile.EnterInsurantData.InsurantData()'><b>InsurantData</b><br>Test class: automobile.EnterInsurantData</td>
+<td></td>
+<td>0</td>
+<td>automobile.EnterInsurantData@10143d3</td></tr>
+<tr>
+<td title='camper.EnterInsurantData.InsurantData()'><b>InsurantData</b><br>Test class: camper.EnterInsurantData</td>
+<td></td>
+<td>0</td>
+<td>camper.EnterInsurantData@8e6209</td></tr>
+<tr>
+<td title='motorcycle.EnterInsurantData.InsurantData()'><b>InsurantData</b><br>Test class: motorcycle.EnterInsurantData</td>
+<td></td>
+<td>0</td>
+<td>motorcycle.EnterInsurantData@14523f8</td></tr>
+<tr>
+<td title='truck.EnterInsurantData.InsurantData()'><b>InsurantData</b><br>Test class: truck.EnterInsurantData</td>
+<td></td>
+<td>0</td>
+<td>truck.EnterInsurantData@149cea0</td></tr>
+<tr>
+<td title='automobile.SelectPriceOption.PriceOption()'><b>PriceOption</b><br>Test class: automobile.SelectPriceOption</td>
+<td></td>
+<td>0</td>
+<td>automobile.SelectPriceOption@1907bac</td></tr>
+<tr>
+<td title='camper.SelectPriceOption.PriceOption()'><b>PriceOption</b><br>Test class: camper.SelectPriceOption</td>
+<td></td>
+<td>0</td>
+<td>camper.SelectPriceOption@116f93d</td></tr>
+<tr>
+<td title='motorcycle.SelectPriceOption.PriceOption()'><b>PriceOption</b><br>Test class: motorcycle.SelectPriceOption</td>
+<td></td>
+<td>0</td>
+<td>motorcycle.SelectPriceOption@1970963</td></tr>
+<tr>
+<td title='truck.SelectPriceOption.PriceOption()'><b>PriceOption</b><br>Test class: truck.SelectPriceOption</td>
+<td></td>
+<td>0</td>
+<td>truck.SelectPriceOption@1ac631b</td></tr>
+<tr>
+<td title='automobile.EnterProductData.ProductData()'><b>ProductData</b><br>Test class: automobile.EnterProductData</td>
+<td></td>
+<td>0</td>
+<td>automobile.EnterProductData@9f73a2</td></tr>
+<tr>
+<td title='camper.EnterProductData.ProductData()'><b>ProductData</b><br>Test class: camper.EnterProductData</td>
+<td></td>
+<td>0</td>
+<td>camper.EnterProductData@5ed7a6</td></tr>
+<tr>
+<td title='motorcycle.EnterProductData.ProductData()'><b>ProductData</b><br>Test class: motorcycle.EnterProductData</td>
+<td></td>
+<td>0</td>
+<td>motorcycle.EnterProductData@19627bc</td></tr>
+<tr>
+<td title='truck.EnterProductData.ProductData()'><b>ProductData</b><br>Test class: truck.EnterProductData</td>
+<td></td>
+<td>0</td>
+<td>truck.EnterProductData@87af79</td></tr>
+<tr>
+<td title='automobile.SendQuote.SendtheQuote()'><b>SendtheQuote</b><br>Test class: automobile.SendQuote</td>
+<td></td>
+<td>0</td>
+<td>automobile.SendQuote@191a895</td></tr>
+<tr>
+<td title='camper.SendQuote.SendtheQuote()'><b>SendtheQuote</b><br>Test class: camper.SendQuote</td>
+<td></td>
+<td>0</td>
+<td>camper.SendQuote@1b92f0a</td></tr>
+<tr>
+<td title='motorcycle.SendQuote.SendtheQuote()'><b>SendtheQuote</b><br>Test class: motorcycle.SendQuote</td>
+<td></td>
+<td>0</td>
+<td>motorcycle.SendQuote@1f8bee4</td></tr>
+<tr>
+<td title='truck.SendQuote.SendtheQuote()'><b>SendtheQuote</b><br>Test class: truck.SendQuote</td>
+<td></td>
+<td>0</td>
+<td>truck.SendQuote@187ed94</td></tr>
+<tr>
+<td title='automobile.EnterVehicleData.VehicleData()'><b>VehicleData</b><br>Test class: automobile.EnterVehicleData</td>
+<td></td>
+<td>0</td>
+<td>automobile.EnterVehicleData@128c152</td></tr>
+<tr>
+<td title='camper.EnterVehicleData.VehicleData()'><b>VehicleData</b><br>Test class: camper.EnterVehicleData</td>
+<td></td>
+<td>0</td>
+<td>camper.EnterVehicleData@125a3ee</td></tr>
+<tr>
+<td title='motorcycle.EnterVehicleData.VehicleData()'><b>VehicleData</b><br>Test class: motorcycle.EnterVehicleData</td>
+<td></td>
+<td>0</td>
+<td>motorcycle.EnterVehicleData@1e2dbf3</td></tr>
+<tr>
+<td title='truck.EnterVehicleData.VehicleData()'><b>VehicleData</b><br>Test class: truck.EnterVehicleData</td>
+<td></td>
+<td>0</td>
+<td>truck.EnterVehicleData@131a74c</td></tr>
+</table><p>
+</body>
+</html>

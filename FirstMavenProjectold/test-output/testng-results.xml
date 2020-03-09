@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="62" total="86" passed="23">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="93925" started-at="2020-03-05T03:36:40Z" finished-at="2020-03-05T03:38:14Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="93925" started-at="2020-03-05T03:36:40Z" finished-at="2020-03-05T03:38:14Z">
+      <class name="camper.SelectPriceOption">
+        <test-method status="PASS" signature="PriceOption()[pri:0, instance:camper.SelectPriceOption@34c28c]" name="PriceOption" duration-ms="7" started-at="2020-03-05T09:08:14Z" finished-at="2020-03-05T09:08:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PriceOption -->
+      </class> <!-- camper.SelectPriceOption -->
+      <class name="truck.EnterVehicleData">
+        <test-method status="PASS" signature="VehicleData()[pri:0, instance:truck.EnterVehicleData@f97850]" name="VehicleData" duration-ms="5" started-at="2020-03-05T09:06:41Z" finished-at="2020-03-05T09:06:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VehicleData -->
+      </class> <!-- truck.EnterVehicleData -->
+      <class name="camper.EnterVehicleData">
+        <test-method status="PASS" signature="VehicleData()[pri:0, instance:camper.EnterVehicleData@11a7f8f]" name="VehicleData" duration-ms="2" started-at="2020-03-05T09:06:41Z" finished-at="2020-03-05T09:06:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VehicleData -->
+      </class> <!-- camper.EnterVehicleData -->
+      <class name="automobile.EnterInsurantData">
+        <test-method status="FAIL" signature="ClickAutomation()[pri:0, instance:automobile.EnterInsurantData@1c1bced]" name="ClickAutomation" duration-ms="3" started-at="2020-03-05T09:07:15Z" finished-at="2020-03-05T09:07:15Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerExceptionat automobile.EnterInsurantData.ClickAutomation(EnterInsurantData.java:32)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)at java.lang.reflect.Method.invoke(Unknown Source)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickAutomation -->
+        <test-method status="PASS" signature="InsurantDataPageLaunch()[pri:0, instance:automobile.EnterInsurantData@1c1bced]" name="InsurantDataPageLaunch" duration-ms="59225" started-at="2020-03-05T09:07:15Z" finished-at="2020-03-05T09:08:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InsurantDataPageLaunch -->
+      </class> <!-- automobile.EnterInsurantData -->
+      <class name="camper.EnterInsurantData">
+        <test-method status="PASS" signature="InsurantData()[pri:0, instance:camper.EnterInsurantData@1c386de]" name="InsurantData" duration-ms="2" started-at="2020-03-05T09:06:41Z" finished-at="2020-03-05T09:06:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InsurantData -->
+      </class> <!-- camper.EnterInsurantData -->
+      <class name="camper.SendQuote">
+        <test-method status="PASS" signature="SendtheQuote()[pri:0, instance:camper.SendQuote@50a6f6]" name="SendtheQuote" duration-ms="3" started-at="2020-03-05T09:08:14Z" finished-at="2020-03-05T09:08:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SendtheQuote -->
+      </class> <!-- camper.SendQuote -->
+      <class name="automobile.EnterProductData">
+        <test-method status="PASS" signature="automobileTestInitialization()[pri:0, instance:automobile.EnterProductData@162806e]" name="automobileTestInitialization" is-config="true" duration-ms="1" started-at="2020-03-05T09:06:40Z" finished-at="2020-03-05T09:06:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- automobileTestInitialization -->
+        <test-method status="PASS" signature="camperTestInitialization()[pri:0, instance:camper.EnterInsurantData@1c386de]" name="camperTestInitialization" is-config="true" duration-ms="1" started-at="2020-03-05T09:06:40Z" finished-at="2020-03-05T09:06:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- camperTestInitialization -->
+        <test-method status="PASS" signature="motorcycleTestInitialization()[pri:0, instance:motorcycle.EnterProductData@8a102f]" name="motorcycleTestInitialization" is-config="true" duration-ms="1" started-at="2020-03-05T09:06:40Z" finished-at="2020-03-05T09:06:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- motorcycleTestInitialization -->
+        <test-method status="PASS" signature="truckTestInitialization()[pri:0, instance:truck.EnterVehicleData@f97850]" name="truckTestInitialization" is-config="true" duration-ms="0" started-at="2020-03-05T09:06:40Z" finished-at="2020-03-05T09:06:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- truckTestInitialization -->
+        <test-method status="PASS" signature="ProductData()[pri:0, instance:automobile.EnterProductData@162806e]" name="ProductData" duration-ms="4" started-at="2020-03-05T09:06:41Z" finished-at="2020-03-05T09:06:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductData -->
+        <test-method status="PASS" signature="automobileTestTearDown()[pri:0, instance:automobile.EnterProductData@162806e]" name="automobileTestTearDown" is-config="true" duration-ms="1" started-at="2020-03-05T09:08:14Z" finished-at="2020-03-05T09:08:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- automobileTestTearDown -->
+        <test-method status="PASS" signature="camperTestTearDown()[pri:0, instance:camper.EnterInsurantData@1c386de]" name="camperTestTearDown" is-config="true" duration-ms="1" started-at="2020-03-05T09:08:14Z" finished-at="2020-03-05T09:08:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- camperTestTearDown -->
+        <test-method status="PASS" signature="motorcycleTestTearDown()[pri:0, instance:motorcycle.EnterProductData@8a102f]" name="motorcycleTestTearDown" is-config="true" duration-ms="1" started-at="2020-03-05T09:08:14Z" finished-at="2020-03-05T09:08:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- motorcycleTestTearDown -->
+        <test-method status="PASS" signature="motorcycleTestTearDown()[pri:0, instance:truck.EnterVehicleData@f97850]" name="motorcycleTestTearDown" is-config="true" duration-ms="0" started-at="2020-03-05T09:08:14Z" finished-at="2020-03-05T09:08:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- motorcycleTestTearDown -->
+      </class> <!-- automobile.EnterProductData -->
+      <class name="motorcycle.EnterVehicleData">
+        <test-method status="PASS" signature="VehicleData()[pri:0, instance:motorcycle.EnterVehicleData@e0fea4]" name="VehicleData" duration-ms="3" started-at="2020-03-05T09:08:14Z" finished-at="2020-03-05T09:08:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VehicleData -->
+      </class> <!-- motorcycle.EnterVehicleData -->
+      <class name="automobile.SelectPriceOption">
+        <test-method status="PASS" signature="PriceOption()[pri:0, instance:automobile.SelectPriceOption@524010]" name="PriceOption" duration-ms="3" started-at="2020-03-05T09:08:14Z" finished-at="2020-03-05T09:08:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PriceOption -->
+      </class> <!-- automobile.SelectPriceOption -->
+      <class name="motorcycle.SendQuote">
+        <test-method status="PASS" signature="SendtheQuote()[pri:0, instance:motorcycle.SendQuote@19d4f9d]" name="SendtheQuote" duration-ms="5" started-at="2020-03-05T09:08:14Z" finished-at="2020-03-05T09:08:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SendtheQuote -->
+      </class> <!-- motorcycle.SendQuote -->
+      <class name="motorcycle.EnterInsurantData">
+        <test-method status="PASS" signature="InsurantData()[pri:0, instance:motorcycle.EnterInsurantData@18c99f5]" name="InsurantData" duration-ms="3" started-at="2020-03-05T09:08:14Z" finished-at="2020-03-05T09:08:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InsurantData -->
+      </class> <!-- motorcycle.EnterInsurantData -->
+      <class name="motorcycle.EnterProductData">
+        <test-method status="PASS" signature="suiteInitialization()[pri:0, instance:motorcycle.EnterProductData@8a102f]" name="suiteInitialization" is-config="true" duration-ms="41" started-at="2020-03-05T09:06:40Z" finished-at="2020-03-05T09:06:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suiteInitialization -->
+        <test-method status="PASS" signature="ProductData()[pri:0, instance:motorcycle.EnterProductData@8a102f]" name="ProductData" duration-ms="32" started-at="2020-03-05T09:06:40Z" finished-at="2020-03-05T09:06:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductData -->
+        <test-method status="PASS" signature="suiteTearDown()[pri:0, instance:motorcycle.EnterProductData@8a102f]" name="suiteTearDown" is-config="true" duration-ms="1" started-at="2020-03-05T09:08:15Z" finished-at="2020-03-05T09:08:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suiteTearDown -->
+      </class> <!-- motorcycle.EnterProductData -->
+      <class name="automobile.EnterVehicleData">
+        <test-method status="PASS" signature="VehicleData()[pri:0, instance:automobile.EnterVehicleData@ec4505]" name="VehicleData" duration-ms="3" started-at="2020-03-05T09:08:14Z" finished-at="2020-03-05T09:08:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VehicleData -->
+      </class> <!-- automobile.EnterVehicleData -->
+      <class name="automobile.SendQuote">
+        <test-method status="PASS" signature="SendtheQuote()[pri:0, instance:automobile.SendQuote@1168fa9]" name="SendtheQuote" duration-ms="3" started-at="2020-03-05T09:08:14Z" finished-at="2020-03-05T09:08:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SendtheQuote -->
+      </class> <!-- automobile.SendQuote -->
+      <class name="motorcycle.SelectPriceOption">
+        <test-method status="PASS" signature="PriceOption()[pri:0, instance:motorcycle.SelectPriceOption@f60048]" name="PriceOption" duration-ms="2" started-at="2020-03-05T09:06:40Z" finished-at="2020-03-05T09:06:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PriceOption -->
+      </class> <!-- motorcycle.SelectPriceOption -->
+      <class name="truck.EnterInsurantData">
+        <test-method status="PASS" signature="InsurantData()[pri:0, instance:truck.EnterInsurantData@1ca01a2]" name="InsurantData" duration-ms="3" started-at="2020-03-05T09:08:14Z" finished-at="2020-03-05T09:08:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InsurantData -->
+      </class> <!-- truck.EnterInsurantData -->
+      <class name="truck.SendQuote">
+        <test-method status="PASS" signature="SendtheQuote()[pri:0, instance:truck.SendQuote@1548a08]" name="SendtheQuote" duration-ms="2" started-at="2020-03-05T09:06:41Z" finished-at="2020-03-05T09:06:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SendtheQuote -->
+      </class> <!-- truck.SendQuote -->
+      <class name="truck.SelectPriceOption">
+        <test-method status="PASS" signature="PriceOption()[pri:0, instance:truck.SelectPriceOption@aa0a0a]" name="PriceOption" duration-ms="1" started-at="2020-03-05T09:06:41Z" finished-at="2020-03-05T09:06:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PriceOption -->
+      </class> <!-- truck.SelectPriceOption -->
+      <class name="samplepackage.TestScript">
+        <test-method status="PASS" signature="test1()[pri:0, instance:samplepackage.TestScript@1b062a]" name="test1" duration-ms="34192" started-at="2020-03-05T09:06:41Z" finished-at="2020-03-05T09:07:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="test2()[pri:0, instance:samplepackage.TestScript@1b062a]" name="test2" duration-ms="3" started-at="2020-03-05T09:07:15Z" finished-at="2020-03-05T09:07:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="test3()[pri:0, instance:samplepackage.TestScript@1b062a]" name="test3" duration-ms="3" started-at="2020-03-05T09:07:15Z" finished-at="2020-03-05T09:07:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+      </class> <!-- samplepackage.TestScript -->
+      <class name="camper.EnterProductData">
+        <test-method status="PASS" signature="ProductData()[pri:0, instance:camper.EnterProductData@180cb77]" name="ProductData" duration-ms="8" started-at="2020-03-05T09:06:41Z" finished-at="2020-03-05T09:06:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductData -->
+      </class> <!-- camper.EnterProductData -->
+      <class name="truck.EnterProductData">
+        <test-method status="PASS" signature="ProductData()[pri:0, instance:truck.EnterProductData@a7bc6e]" name="ProductData" duration-ms="80" started-at="2020-03-05T09:06:41Z" finished-at="2020-03-05T09:06:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductData -->
+      </class> <!-- truck.EnterProductData -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

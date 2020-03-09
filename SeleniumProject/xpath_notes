@@ -1,0 +1,9 @@
+Ways of Xpath
+1.drv.findElement(By.xpath("//label[text()='Female']/span")).click();  (occurance)
+2.WebElement automobile = drv.findElement(By.xpath("//a[@id='nav_automobile']"));
+3.xpath using contains //label[contains(.,'Bungee')]
+
+Waits :
+1)thread.sleep
+2)IMplicit Wait
+3)Explicit Wait.

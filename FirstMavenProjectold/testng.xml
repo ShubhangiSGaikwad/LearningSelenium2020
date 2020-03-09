@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="automobile.EnterVehicleData"/>
+      <!-- <class name="motorcycle.EnterInsurantData"/>
+      <class name="motorcycle.EnterVehicleData"/>
+      <class name="automobile.SelectPriceOption"/>
+      <class name="automobile.SendQuote"/>
+    --> <!--   <class name="motorcycle.EnterProductData"/>
+      <class name="motorcycle.SelectPriceOption"/>
+      <class name="automobile.EnterProductData"/>
+      <class name="truck.SendQuote"/>
+      <class name="camper.EnterInsurantData"/>
+      <class name="truck.SelectPriceOption"/>
+      <class name="camper.EnterProductData"/>
+      <class name="camper.EnterVehicleData"/>
+      <class name="truck.EnterProductData"/>
+      <class name="truck.EnterVehicleData"/>
+      <class name="samplepackage.TestScript"/>
+      <class name="motorcycle.SendQuote"/>
+      <class name="camper.SelectPriceOption"/>
+      <class name="camper.SendQuote"/> -->
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

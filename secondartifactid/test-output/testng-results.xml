@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="4" total="9" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="47954" started-at="2020-03-08T15:56:46 IST" finished-at="2020-03-08T15:57:34 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="47954" started-at="2020-03-08T15:56:46 IST" finished-at="2020-03-08T15:57:34 IST">
+      <class name="automobile.EnterInsurantData">
+        <test-method status="PASS" signature="InsurantData()[pri:0, instance:automobile.EnterInsurantData@6e6c3152]" name="InsurantData" duration-ms="5895" started-at="2020-03-08T15:57:14 IST" finished-at="2020-03-08T15:57:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InsurantData -->
+      </class> <!-- automobile.EnterInsurantData -->
+      <class name="automobile.EnterProductData">
+        <test-method status="PASS" signature="ProductData()[pri:0, instance:automobile.EnterProductData@50b494a6]" name="ProductData" duration-ms="3620" started-at="2020-03-08T15:57:20 IST" finished-at="2020-03-08T15:57:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductData -->
+      </class> <!-- automobile.EnterProductData -->
+      <class name="automobile.SelectPriceOption">
+        <test-method status="PASS" signature="PriceOption()[pri:0, instance:automobile.SelectPriceOption@3cef309d]" name="PriceOption" duration-ms="8206" started-at="2020-03-08T15:57:24 IST" finished-at="2020-03-08T15:57:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PriceOption -->
+      </class> <!-- automobile.SelectPriceOption -->
+      <class name="automobile.EnterVehicleData">
+        <test-method status="PASS" signature="Chromebrowser()[pri:0, instance:automobile.EnterVehicleData@6ebc05a6]" name="Chromebrowser" is-config="true" duration-ms="18523" started-at="2020-03-08T15:56:46 IST" finished-at="2020-03-08T15:57:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Chromebrowser -->
+        <test-method status="PASS" signature="VehicleData()[pri:0, instance:automobile.EnterVehicleData@6ebc05a6]" name="VehicleData" duration-ms="9818" started-at="2020-03-08T15:57:05 IST" finished-at="2020-03-08T15:57:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VehicleData -->
+      </class> <!-- automobile.EnterVehicleData -->
+      <class name="automobile.SendQuote">
+        <test-method status="PASS" signature="Quote()[pri:0, instance:automobile.SendQuote@32709393]" name="Quote" duration-ms="1764" started-at="2020-03-08T15:57:32 IST" finished-at="2020-03-08T15:57:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Quote -->
+      </class> <!-- automobile.SendQuote -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="automobile.EnterProductData">
+        <methods>
+          <include name="Chromebrowser"/>
+          <include name="ProductData"/>
+        </methods>
+      </class> <!-- automobile.EnterProductData -->
+      <class name="automobile.SelectPriceOption">
+        <methods>
+          <include name="Chromebrowser"/>
+          <include name="PriceOption"/>
+        </methods>
+      </class> <!-- automobile.SelectPriceOption -->
+      <class name="automobile.SendQuote">
+        <methods>
+          <include name="Chromebrowser"/>
+          <include name="Quote"/>
+        </methods>
+      </class> <!-- automobile.SendQuote -->
+      <class name="automobile.EnterInsurantData">
+        <methods>
+          <include name="Chromebrowser"/>
+          <include name="InsurantData"/>
+        </methods>
+      </class> <!-- automobile.EnterInsurantData -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
