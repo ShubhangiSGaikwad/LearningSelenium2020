@@ -1,18 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
-  <test thread-count="5" name="Test feature1">
+  <test thread-count="5" name="Test">
     <classes>
-      <class name="testngpackage.DependsOnMethod"/>
       <class name="testngpackage.FirstTestCase"/>
-      
+      <class name="testngpackage.LearnParameters"/>
+      <class name="testngpackage.DependsOnMethod"/>
     </classes>
   </test> <!-- Test -->
-  <test thread-count="5" name="Test feature 2">
-    <classes>
-      <class name="testngpackage.DependsOnMethod"/>
-      <class name="testngpackage.FirstTestCase"/>
-    </classes>
-  </test> <!-- Test -->
-  
 </suite> <!-- Suite -->

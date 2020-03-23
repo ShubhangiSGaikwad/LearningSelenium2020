@@ -3,13 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="DependsOnMethod">
+      <class name="testngpackage.LearnParameters">
         <methods>
-          <include name="homepage"/>
-          <include name="login"/>
-          <include name="logout"/>
+          <include name="test"/>
         </methods>
-      </class> <!-- DependsOnMethod -->
+      </class> <!-- testngpackage.LearnParameters -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
