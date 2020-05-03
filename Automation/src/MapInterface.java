@@ -12,9 +12,9 @@ public class MapInterface {
 		map.put(1, "ABCD");
 		map.put(2, "DEFG");
 		map.put(3, "HIJK");
+		map.put(5, "value");
 		
-		
-		System.out.println("MAP "+ map.get(2));
+		System.out.println("MAP "+ map.get(4));
 		
 		
 		
